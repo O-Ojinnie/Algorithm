@@ -17,12 +17,9 @@ public class Main {
 		chess.add(2);
 		chess.add(2);
 		chess.add(8);
-		for(int i =0; i<token.length; i++) {
-			input.add(Integer.parseInt(token[i]));
-		}
-		
 	
 		for(int i =0; i<chess.size(); i++) {
+			input.add(Integer.parseInt(token[i]));
 			System.out.println(chess.get(i)-input.get(i));
 		}
 	}
